@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "dragon_eggs_plus",
+  "version": "${version}",
+
+  "name": "DragonEggs+",
+  "description": "MOAR DRAGON EGGZ",
+  "authors": [
+    "bitbloxhub"
+  ],
+
+  "icon": "assets/dragon_eggs_plus/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fabric_mods.dragon_eggs_plus.DragonEggsPlus"
+    ]
+  },
+  "mixins": [
+    "dragon_eggs_plus.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
